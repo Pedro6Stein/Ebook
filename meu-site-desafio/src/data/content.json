@@ -1,0 +1,51 @@
+{
+  "header": {
+    "title": "E-BOOK COMPLETO"
+  },
+  "hero": {
+    "subtitle": "UMA ABORDAGEM CIENTÍFICA E DEFINITIVA",
+    "mainTitle": "CONHEÇA O MÉTODO CIENTÍFICO PARA ELIMINAR ATÉ 10KG SEM PASSAR FOME",
+    "oldPrice": "R$147,99",
+    "currentPrice": "R$47,99",
+    "ctaButtonText": "EU QUERO ADQUIRIR A FÓRMULA AGORA!",
+    "image": "hero-image.jpg"
+  },
+  "guarantee": {
+    "title": "GARANTIA INCONDICIONAL",
+    "text": "Você está seguro, fique tranquilo!",
+    "image": "guarantee-badge.jpg"
+  },
+  "testimonials": {
+    "title": "VEJA O QUE ESTÃO DIZENDO DO NOSSO PRODUTO",
+    "images": [
+      "testimonial1.jpg",
+      "testimonial2.jpg",
+      "testimonial1.jpg",
+      "testimonial2.jpg"
+    ]
+  },
+  "benefits": {
+    "title": "CONFIRA O QUE VOCÊ VAI APRENDER NESTE DESAFIO EM 24 DIAS",
+    "bonusItems": [
+      {
+        "title": "BÔNUS 01",
+        "description": "Receitas Fit Almoço e Jantar! Um guia completo com receitas deliciosas para almoço e jantar sem perder o foco da dieta.",
+        "image": "bonus1.jpg"
+      },
+      {
+        "title": "BÔNUS 02",
+        "description": "Salgados Fit! Um guia com receitas deliciosas de almoço e jantar sem perder o foco da dieta. Você também pode improvisar para consultas ocasionais para não ficar com a consciência pesada.",
+        "image": "bonus2.jpg"
+      },
+      {
+        "title": "BÔNUS 03",
+        "description": "Sucos Detox! Um guia com sucos detox deliciosos para ajudar na desintoxicação e acelerar o metabolismo. Ideal para consultar como referência rápida sempre que precisar.",
+        "image": "bonus3.jpg"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 DESAFIO 24 DIAS. Todos os direitos reservados.",
+    "disclaimer": "Este produto não garante a obtenção de resultados. Qualquer referência ao desempenho de uma estratégia não deve ser interpretada como uma garantia de resultados."
+  }
+}
