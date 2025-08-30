@@ -1,10 +1,12 @@
+// src/components/Guarantee.jsx
+
 import React from 'react';
 import styled from 'styled-components';
-import { colors } from '../data/colors'; // Importa as cores
-import content from '../data/content.json'; // Importa o conteúdo
+import { colors } from '../data/colors';
+import content from '../data/content.json';
 
-// Importar a imagem do selo de garantia
-import guaranteeBadge from '../assets/guarantee-badge.jpg';
+// CORREÇÃO: Alterado de .jpg para .png
+import guaranteeBadge from '../assets/guarantee-badge.png';
 
 const GuaranteeWrapper = styled.section`
   display: flex;

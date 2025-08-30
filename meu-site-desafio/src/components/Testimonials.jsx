@@ -4,13 +4,12 @@ import { colors } from '../data/colors';
 import content from '../data/content.json'; 
 
 // Importar todas as imagens de depoimento
-import testimonial1 from '../assets/testimonial1.jpg';
-import testimonial2 from '../assets/testimonial2.jpg';
+import testimonial1 from '../assets/testimonial1.png';
+import testimonial2 from '../assets/testimonial2.png';
 
 const testimonialImages = {
-  'testimonial1.jpg': testimonial1,
-  'testimonial2.jpg': testimonial2,
-  
+  'testimonial1.png': testimonial1,
+  'testimonial2.png': testimonial2,
 };
 
 

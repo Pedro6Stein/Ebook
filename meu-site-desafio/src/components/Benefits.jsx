@@ -1,30 +1,31 @@
+// src/components/Benefits.jsx
+
 import React from 'react';
 import styled from 'styled-components';
-import { colors } from '../data/colors'; // Importa as cores
-import content from '../data/content.json'; // Importa o conteúdo
+import { colors } from '../data/colors';
+import content from '../data/content.json';
 
-// Importar todas as imagens de depoimento
-import testimonial1 from '../assets/testimonial1.jpg';
-import testimonial2 from '../assets/testimonial2.jpg';
-// Adicione mais imports se tiver mais imagens de depoimento com nomes diferentes
+// Importar as imagens de bônus com a extensão correta
+import bonus1 from '../assets/bonus1.png';
+import bonus2 from '../assets/bonus2.png';
+import bonus3 from '../assets/bonus3.png';
 
-// Mapeamento de nomes de arquivo para os imports de imagem
-const testimonialImages = {
-  'testimonial1.jpg': testimonial1,
-  'testimonial2.jpg': testimonial2,
-  // Adicione mais conforme necessário
+// Mapeamento para as imagens de bônus
+const bonusImages = {
+  'bonus1.png': bonus1,
+  'bonus2.png': bonus2,
+  'bonus3.png': bonus3,
 };
 
-
-const TestimonialsSection = styled.section`
+const BenefitsSection = styled.section`
   padding: 50px 20px;
   text-align: center;
-  background-color: ${colors.background};
+  background-color: ${colors.darkBackground};
 `;
 
 const Title = styled.h2`
   font-size: 2rem;
-  color: ${colors.lightText};
+  color: ${colors.secondary};
   margin-bottom: 40px;
 
   @media(max-width: 768px) {
@@ -32,34 +33,57 @@ const Title = styled.h2`
   }
 `;
 
-const TestimonialsGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+const BonusGrid = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
 `;
 
-const TestimonialImage = styled.img`
+const BonusCard = styled.div`
+  max-width: 300px;
+  background-color: ${colors.background};
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const BonusImage = styled.img`
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  margin-bottom: 15px;
 `;
 
-function Testimonials() {
+const BonusTitle = styled.h3`
+  font-size: 1.4rem;
+  color: ${colors.lightText};
+  margin-bottom: 10px;
+`;
+
+const BonusDescription = styled.p`
+  font-size: 0.9rem;
+  color: ${colors.greyText};
+`;
+
+function Benefits() {
   return (
-    <TestimonialsSection>
-      <Title>{content.testimonials.title}</Title>
-      <TestimonialsGrid>
-        {content.testimonials.images.map((imageName, index) => (
-          <TestimonialImage
-            key={index}
-            src={testimonialImages[imageName]} // Usa o mapeamento para obter a imagem importada
-            alt={`Depoimento ${index + 1}`}
-          />
+    <BenefitsSection>
+      <Title>{content.benefits.title}</Title>
+      <BonusGrid>
+        {content.benefits.bonusItems.map((bonus, index) => (
+          <BonusCard key={index}>
+            <BonusImage src={bonusImages[bonus.image]} alt={bonus.title} />
+            <BonusTitle>{bonus.title}</BonusTitle>
+            <BonusDescription>{bonus.description}</BonusDescription>
+          </BonusCard>
         ))}
-      </TestimonialsGrid>
-    </TestimonialsSection>
+      </BonusGrid>
+    </BenefitsSection>
   );
 }
 
-export default Testimonials;
+export default Benefits;

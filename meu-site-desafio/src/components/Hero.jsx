@@ -1,10 +1,12 @@
+// src/components/Hero.jsx
+
 import React from 'react';
 import styled from 'styled-components';
-import { colors } from '../data/colors'; // Importa as cores
-import content from '../data/content.json'; // Importa o conteúdo
+import { colors } from '../data/colors';
+import content from '../data/content.json';
 
-// Importar a imagem do hero
-import heroImage from '../assets/hero-image.jpg';
+// CORREÇÃO: Alterado de .jpg para .png
+import heroImage from '../assets/hero-image.png';
 
 const HeroSection = styled.section`
   text-align: center;
