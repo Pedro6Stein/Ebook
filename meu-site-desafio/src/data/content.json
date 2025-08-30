@@ -8,20 +8,20 @@
     "oldPrice": "R$147,99",
     "currentPrice": "R$47,99",
     "ctaButtonText": "EU QUERO ADQUIRIR A FÓRMULA AGORA!",
-    "image": "hero-image.jpg"
+    "image": "hero-image.png"
   },
   "guarantee": {
     "title": "GARANTIA INCONDICIONAL",
     "text": "Você está seguro, fique tranquilo!",
-    "image": "guarantee-badge.jpg"
+    "image": "guarantee-badge.png"
   },
   "testimonials": {
     "title": "VEJA O QUE ESTÃO DIZENDO DO NOSSO PRODUTO",
     "images": [
-      "testimonial1.jpg",
-      "testimonial2.jpg",
-      "testimonial1.jpg",
-      "testimonial2.jpg"
+      "testimonial1.png",
+      "testimonial2.png",
+      "testimonial1.png",
+      "testimonial2.png"
     ]
   },
   "benefits": {
@@ -30,17 +30,17 @@
       {
         "title": "BÔNUS 01",
         "description": "Receitas Fit Almoço e Jantar! Um guia completo com receitas deliciosas para almoço e jantar sem perder o foco da dieta.",
-        "image": "bonus1.jpg"
+        "image": "bonus1.png"
       },
       {
         "title": "BÔNUS 02",
         "description": "Salgados Fit! Um guia com receitas deliciosas de almoço e jantar sem perder o foco da dieta. Você também pode improvisar para consultas ocasionais para não ficar com a consciência pesada.",
-        "image": "bonus2.jpg"
+        "image": "bonus2.png"
       },
       {
         "title": "BÔNUS 03",
         "description": "Sucos Detox! Um guia com sucos detox deliciosos para ajudar na desintoxicação e acelerar o metabolismo. Ideal para consultar como referência rápida sempre que precisar.",
-        "image": "bonus3.jpg"
+        "image": "bonus3.png"
       }
     ]
   },
